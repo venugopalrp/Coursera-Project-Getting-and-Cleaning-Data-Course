@@ -16,3 +16,13 @@ You should create one R script called run_analysis.R that does the following.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+## My solution
+ 
+* Unzip the file getdata-projectfiles-UCI HAR Dataset.zip in your working directory.
+* Create script *run_analysis.R* in working directory.
+* Install pylr package
+* Merge X, Y and Subject_Data files from Test and Train together.
+* Keep only the required columns using subset functions
+* Compute averages using ddply function
+* write output to working directory
