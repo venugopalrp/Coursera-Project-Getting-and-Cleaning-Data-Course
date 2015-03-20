@@ -24,5 +24,5 @@ You should create one R script called run_analysis.R that does the following.
 * Install pylr package
 * Merge X, Y and Subject_Data files from Test and Train together.
 * Keep only the required columns using subset functions
-* Compute averages using subsets and colMeans functions
+* Compute averages using ddply function
 * write output to working directory
