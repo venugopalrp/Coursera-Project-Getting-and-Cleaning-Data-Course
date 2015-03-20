@@ -41,3 +41,4 @@ The attached R script (run_analysis.R) performs the following to clean up the da
         tgravityacc-mean-x 
         
         tgravityacc-mean-y
+* Finally, the script creates a 2nd, independent tidy data set with the average of each measurement for each activity and each subject. The result is saved as averages_data.txt, a 6x68 data frame. 
